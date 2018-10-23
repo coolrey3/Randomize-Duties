@@ -12,23 +12,24 @@
     </head>
 <body>
     
-<?php
-####Variables#######
-$employees  = array("John","Ray","West","Garrett",);
-$task = array("Trash","Floors","Vacuum","WorkBenches","Display Cases","Windows");
 
-##########Header#############
-echo "<div style='width:100%;text-align:center;'>
-<h1 style='box-shadow:inset 1px 1px rgba(255,255,255,0.1), 1px 1px rgba(0,0,0,0.1);
-border-style: solid;border-color: black;border-width:.5px;
-padding:5px;WIDTH:100%;background-color:#08c;color:white;text-align:center;'> Daily Assignments</h1></div>
-<form action='tasks.php' method='post'>";
+<!--Header-->
+<div style='width:100%;text-align:center'>
+    <h1 style='box-shadow:inset 1px 1px rgba(255,255,255,0.1), 1px 1px rgba(0,0,0,0.1);
+               border-style: solid;border-color: black;border-width:.5px;
+               padding:5px;WIDTH:100%;background-color:#08c;color:white;text-align:center;'> 
+        Daily Assignments
+    </h1>
+    </div>
+<form action='tasks.php' method='post'>
 
 ########Instructions##########
-echo "<h3 style='text-align:center'>Select the employees to assign tasks to.</h3>";
+<h3 style='text-align:center'>Select the employees to assign tasks to.</h3>
 
+<?php
 #######checkmarks##############
 echo "<div style='text-align:center;margin-top:-5px;'>";
+$employees  = array("John","Ray","West","Garrett",);
 foreach($employees as $present) {
     echo "<input type='checkbox' name='$present' value='$present' style='width:4%;text-align:center;margin:auto;'>$present" ;
     };
@@ -48,8 +49,9 @@ echo
         </th>
    </tr>";
 
-######employees#############
-$employees  = array("John","Ray","West","Garrett","Eric");
+####Variables#######
+$employees  = array("John","Ray","West","Garrett",);
+$task = array("Trash","Floors","Vacuum","WorkBenches","Display Cases","Windows");
 $count =  0;
 
 #############tasks#################
