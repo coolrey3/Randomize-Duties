@@ -10,7 +10,7 @@
                 background-size:cover;
                  }
     </style>
-    <form action='tasks.php' method='post'>
+    <form action='index.php' method='post'>
 </head>
 
 <body>
