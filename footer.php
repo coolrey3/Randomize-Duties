@@ -1,6 +1,8 @@
 <?php
 #############footer info##########
+
 echo "<style> a {color:white;}</style>";
+
 $footer=array("'http://start.mobilerepairtechs.com'>POS",
               "'http://www.cellphonerepair.com/gainesville-fl'>Website Front End" ,
               "'https://www.cellphonerepair.com/gainesville-fl/login/' >Website Back End",
@@ -30,7 +32,7 @@ echo "| ";
 foreach($footer as $footer) {
                                 echo "<td style='text-decoration-color:white;'> <a target='_blank' href=$footer </a> | </td>";   
                             }
+?>
 echo "</div>";
 
 echo "</div>";
-?>
