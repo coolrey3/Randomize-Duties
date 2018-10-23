@@ -1,4 +1,3 @@
-######Head########
 <DOCTYTPE html></DOCTYTPE>
 <html>
     <head>
@@ -12,6 +11,7 @@
         </style>
     </head>
 <body>
+    
 <?php
 ####Variables#######
 $employees  = array("John","Ray","West","Garrett",);
@@ -60,7 +60,7 @@ foreach($task as $task) {
                               $task
                          </td>" .
                          "<td style='background-color:white;border-style:solid;color:black'>" . 
-                              $employees[array_rand($present)] . 
+                              $employees[array_rand(employees)] . 
                           "</td> 
                      </tr> " ;
                    
