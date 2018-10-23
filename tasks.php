@@ -23,11 +23,11 @@
     </div>
 <form action='tasks.php' method='post'>
 
-########Instructions##########
+<!--Instructions-->
 <h3 style='text-align:center'>Select the employees to assign tasks to.</h3>
 
+<!--checkmarks-->
 <?php
-#######checkmarks##############
 echo "<div style='text-align:center;margin-top:-5px;'>";
 $employees  = array("John","Ray","West","Garrett",);
 foreach($employees as $present) {
