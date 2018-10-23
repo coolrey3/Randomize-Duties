@@ -15,8 +15,9 @@
 
 <body>
     
-    !--Header-->
+    <!--Header-->
 
+    
     <div style='width:100%;text-align:center'>
         <h1 style='box-shadow:inset 1px 1px rgba(255,255,255,0.1), 1px 1px rgba(0,0,0,0.1);
                border-style: solid;border-color: black;border-width:.5px;
@@ -24,10 +25,15 @@
             Daily Assignments
         </h1>
     </div>
+    
     <!--Instructions-->
     
+    
     <h3 style='text-align:center'>Select the employees to assign tasks to.</h3>
+    
     <!--checkmarks-->
+    
+    
     <div style='text-align:center;margin-top:-5px;'>
         <?php
         $employees  = array("John","Ray","West","Garrett",);
@@ -39,11 +45,13 @@
     
     <!--Button-->
     
+    
     <div style='margin:auto;text-align:center;'>
         <br><input type='submit' value='Generate' style='margin:auto'><br><br>
     </div>
     
     <!--Table-->
+    
     
     <table style='height:43%;border-style:solid;width:90%;text-align:center;background-color:gray;margin:auto;'>
         <tr style='border-style:solid;'>
@@ -57,30 +65,25 @@
     
     <?php
         ####Variables#######
+        
+        
         $employees  = array("John","Ray","West","Garrett",);
         $task = array("Trash","Floors","Vacuum","WorkBenches","Display Cases","Windows");
         $count =  0;
         
         #############tasks#################
+        
+        
         foreach($task as $task) {
             echo  "<tr>
             <td style='background-color:white;border-style:solid;color:black'>
             $task
-            </td>" . "<td style='background-color:white;border-style:solid;color:black'>" . $employees[array_rand($employees)] . "</td> 
-                     </tr> " ;
-                   
-
-
-
-            #  foreach($employees as $employees){
-             #       echo $employees . " " . $count;
-             #   $count ++; 
-             # }   
-}
+            </td>" . "<td style='background-color:white;border-style:solid;color:black'>" . $employees[array_rand($employees)] . "</td>
+            </tr> " ;
+        }
                 echo "</table>";
                 #############footer info##########
                 include('footer.php');
-                ?>
-</body>
-
-</html>
+        ?>
+        </body>
+    </html>
