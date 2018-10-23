@@ -1,15 +1,17 @@
 ######Head########
-<head> 
+<DOCTYTPE html></DOCTYTPE>
+<html>
+    <head>
         <title>Daily Assignments</title>
-        <style> 
+        <style>
             body {
                 color:white;margin:0;background-color:#FAF0FF;
                 background-image: url('http://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png');
                 background-size:cover;
-            }
+                 }
         </style>
- </head>
-
+    </head>
+<body>
 <?php
 ####Variables#######
 $employees  = array("John","Ray","West","Garrett",);
@@ -79,3 +81,5 @@ include('footer.php');
 
 
 ?>
+</body>
+</html>
