@@ -2,13 +2,13 @@
 #############footer info##########
 echo "<style> a {color:white;}</style>";
 $footer=array("'http://start.mobilerepairtechs.com'>POS</a>",
-              "<a href='http://start.mobilerepairtechs.com'>POS</a>",
-              "<a href='http://www.cellphonerepair.com/gainesville-fl'>Website Front End</a>" ,
-              "<a href='https://www.cellphonerepair.com/gainesville-fl/login/' >Website Back End</a>",
-              "<a href='http://facebook.com/mobilerepairtechs'>Facebook</a>",
+              "'http://start.mobilerepairtechs.com'>POS</a>",
+              "'http://www.cellphonerepair.com/gainesville-fl'>Website Front End</a>" ,
+              "'https://www.cellphonerepair.com/gainesville-fl/login/' >Website Back End</a>",
+              "'http://facebook.com/mobilerepairtechs'>Facebook</a>",
               "'./tasks.php'>Tasks</a>",
-              "<a href='http://mc.mobilerepairtechs.com'>Marketing Cards</a>",
-              "<a href='http://code.raymercedes.com/clist.php'>Craigslist Ad's</a>"
+              "'http://mc.mobilerepairtechs.com'>Marketing Cards</a>",
+              "'http://code.raymercedes.com/clist.php'>Craigslist Ad's</a>"
 
              );
 
