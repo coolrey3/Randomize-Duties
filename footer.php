@@ -32,7 +32,7 @@ echo "| ";
 foreach($footer as $footer) {
                                 echo "<td style='text-decoration-color:white;'> <a target='_blank' href=$footer </a> | </td>";   
                             }
-?>
 echo "</div>";
 
-echo "</div>";
+echo '</div>';
+?>
