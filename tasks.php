@@ -54,7 +54,7 @@ foreach($task as $task) {
                               $task
                          </td>" .
                          "<td style='background-color:white;border-style:solid;color:black'>" . 
-                              $employees[array_rand($employees)] . 
+                              $employees[array_rand($present)] . 
                           "</td> 
                      </tr> " ;
                    
