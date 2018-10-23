@@ -29,7 +29,7 @@ echo "<div style='color:white';>";
 
 echo "| ";
 foreach($footer as $footer) {
-                                echo "<td style='text-decoration-color:white;'> <a target="_blank" href=$footer | </td>";   
+                                echo "<td style='text-decoration-color:white;'> <a target='_blank' href=$footer | </td>";   
                             }
 echo "</div>";
 
