@@ -66,9 +66,7 @@
             echo  "<tr>
             <td style='background-color:white;border-style:solid;color:black'>
             $task
-            </td>" . "<td style='background-color:white;border-style:solid;color:black'>" . 
-                              $employees[array_rand($employees)] . 
-                          "</td> 
+            </td>" . "<td style='background-color:white;border-style:solid;color:black'>" . $employees[array_rand($employees)] . "</td> 
                      </tr> " ;
                    
 
