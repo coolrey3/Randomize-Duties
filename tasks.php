@@ -54,22 +54,19 @@
                 Employee
             </th>
         </tr>
-    </table>
     
     <?php
-####Variables#######
-$employees  = array("John","Ray","West","Garrett",);
-$task = array("Trash","Floors","Vacuum","WorkBenches","Display Cases","Windows");
-$count =  0;
-
-#############tasks#################
-foreach($task as $task) {
-
-              echo  "<tr>
-                         <td style='background-color:white;border-style:solid;color:black'>
-                              $task
-                         </td>" .
-                         "<td style='background-color:white;border-style:solid;color:black'>" . 
+        ####Variables#######
+        $employees  = array("John","Ray","West","Garrett",);
+        $task = array("Trash","Floors","Vacuum","WorkBenches","Display Cases","Windows");
+        $count =  0;
+        
+        #############tasks#################
+        foreach($task as $task) {
+            echo  "<tr>
+            <td style='background-color:white;border-style:solid;color:black'>
+            $task
+            </td>" . "<td style='background-color:white;border-style:solid;color:black'>" . 
                               $employees[array_rand($employees)] . 
                           "</td> 
                      </tr> " ;
