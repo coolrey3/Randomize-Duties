@@ -1,7 +1,8 @@
 <?php
 #############footer info##########
 echo "<style> a {color:white;}</style>";
-$footer=array("<a href='http://start.mobilerepairtechs.com'>POS</a>",
+$footer=array("'http://start.mobilerepairtechs.com'>POS</a>",
+              "<a href='http://start.mobilerepairtechs.com'>POS</a>",
               "<a href='http://www.cellphonerepair.com/gainesville-fl'>Website Front End</a>" ,
               "<a href='https://www.cellphonerepair.com/gainesville-fl/login/' >Website Back End</a>",
               "<a href='http://facebook.com/mobilerepairtechs'>Facebook</a>",
@@ -28,7 +29,7 @@ echo "<div style='color:white';>";
 
 echo "| ";
 foreach($footer as $footer) {
-                                echo "<td style='text-decoration-color:white;'> $footer  | </td>";   
+                                echo "<td style='text-decoration-color:white;'> <a target="_blank" href=$footer | </td>";   
                             }
 echo "</div>";
 
