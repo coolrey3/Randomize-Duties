@@ -1,14 +1,18 @@
-<?php
 ######Head########
-echo "<head> <title>Closing Assignments</title>
-        <style> body {color:white;margin:0;background-color:#FAF0FF;
-        background-image: url('http://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png');
-        background-size:cover;}
+<head> 
+        <title>Daily Assignments</title>
+        <style> 
+            body {
+                color:white;margin:0;background-color:#FAF0FF;
+                background-image: url('http://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png');
+                background-size:cover;
+            }
         </style>
-    </head>";
+ </head>
 
+<?php
 ####Variables#######
-$employees  = array("John","Ray","West","Garrett","Michael");
+$employees  = array("John","Ray","West","Garrett",);
 $task = array("Trash","Floors","Vacuum","WorkBenches","Display Cases","Windows");
 
 ##########Header#############
@@ -43,7 +47,7 @@ echo
    </tr>";
 
 ######employees#############
-$employees  = array("John","Ray","West","Garrett","Michael","Eric");
+$employees  = array("John","Ray","West","Garrett","Eric");
 $count =  0;
 
 #############tasks#################
