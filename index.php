@@ -83,7 +83,7 @@
         }
                 echo "</table>";
                 #############footer info##########
-                include('footer.php');
+                include('../Frontend/footer.php');
         ?>
 </body>
 
